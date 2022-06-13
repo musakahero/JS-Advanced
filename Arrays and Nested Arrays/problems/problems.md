@@ -1,0 +1,1 @@
+Exercise: https://judge.softuni.bg/Contests/2753/Arrays-and-Nested-Arrays-Exercise
