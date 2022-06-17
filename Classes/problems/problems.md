@@ -1,0 +1,1 @@
+Exercise: https://judge.softuni.bg/Contests/2769/Classes-Exercise

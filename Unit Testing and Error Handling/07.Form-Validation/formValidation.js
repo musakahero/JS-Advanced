@@ -1,21 +1,13 @@
 function validate() {
    
     //DOM references
-    //const usernameField = document.querySelector('#username');
     const passwordField = document.querySelector('#password');
     const confirmPassField = document.querySelector('#confirm-password');
-    //const emailField = document.querySelector('#email');
     const isCompanyBox = document.querySelector('#company');
     const companyInfoSection = document.querySelector('#companyInfo');
-    //const companyNumField = document.querySelector('#companyNumber');
     const validPrompt = document.querySelector('#valid');
     const submitBtn = document.querySelector('#submit');
 
-    //validation patterns 
-    //const usernamePattern = /^[a-zA-Z0-9]{3,20}$/;
-    //const passwordPattern = /^\w{5,15}$/;
-    //const emailPattern = /^.*@.*\..*$/;
-    //const companyNumPattern = /^[1-9][0-9]{3}$/;
 
     //event listeners
     isCompanyBox.addEventListener('change', onTick);
