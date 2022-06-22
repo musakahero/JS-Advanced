@@ -36,7 +36,7 @@ class Company {
             if (this.departments[bestDept][a].salary < this.departments[bestDept][b].salary) {
                 return 1;
             } else if (this.departments[bestDept][b].salary === this.departments[bestDept][a].salary){
-                a.localeCompare(b);
+                return a.localeCompare(b);
             } 
             return -1;
         });
@@ -73,7 +73,7 @@ class Company {
 let c = new Company();
 c.addEmployee("Stanimir", 2000, "engineer", "Construction");
 c.addEmployee("Pesho", 1500, "electrical engineer", "Construction");
-c.addEmployee("Slavi", 500, "dyer", "");
+c.addEmployee("Slavi", 500, "dyer", "Construction");
 c.addEmployee("Stan", 2000, "architect", "Construction");
 c.addEmployee("Stanimir", 1200, "digital marketing manager", "Marketing");
 c.addEmployee("Pesho", 1000, "graphical designer", "Marketing");
