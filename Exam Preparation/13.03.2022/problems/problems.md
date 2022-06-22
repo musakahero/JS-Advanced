@@ -1,0 +1,1 @@
+Exam preparation: https://judge.softuni.org/Contests/3395/JS-Advanced-Exam-13-March-2022

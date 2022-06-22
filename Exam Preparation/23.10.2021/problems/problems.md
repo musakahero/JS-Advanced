@@ -1,0 +1,1 @@
+Exam preparation: https://judge.softuni.org/Contests/3235/JS-Advanced-Final-Exam-23-October-2021
