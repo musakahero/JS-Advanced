@@ -45,10 +45,12 @@ function solve() {
         function onMore() {
             if (moreBtn.textContent == 'More Info') {
                 moreBtn.textContent = 'Less Info';
-                Array.from(document.querySelectorAll('.hide')).forEach(el => el.style.display = 'contents');
+                //Array.from(document.querySelectorAll('.hide')).forEach(el => el.style.display = 'contents');
+                hideTr.style.display = 'contents';
             } else {
                 moreBtn.textContent = 'More Info';
-                Array.from(document.querySelectorAll('.hide')).forEach(el => el.style.display = 'none');
+                //Array.from(document.querySelectorAll('.hide')).forEach(el => el.style.display = 'none');
+                hideTr.style.display = 'none';
             }
         }
 
